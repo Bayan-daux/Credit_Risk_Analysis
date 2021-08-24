@@ -13,22 +13,28 @@ Different techniques were deployed to train and evaluate models with unbalanced 
 ### 1. **Resampling Models to Predict Credit Risk**
 
 - **Naive Random Oversampling**
-![](images/Naive Random Oversampling.PNG)
+- 
+![](images/Naive.PNG)
 
 - **SMOTE Oversampling**
-![](images/SMOTE Oversampling.PNG)
+- 
+![](images/SMOTE.PNG)
 
 - **Undersampling**
+- 
 ![](images/Undersampling.PNG)
 
 - **Combination (Over and Under) Sampling**
-![](images/Combination (Over and Under) Sampling.PNG)
+- 
+![](images/Combination.PNG)
 
 ### 2. **Ensemble Classifiers to Predict Credit Risk**
 
 - **Balanced Random Forest Classifier**
-![](images/Naive Random Oversampling.PNG)
+- 
+![](images/Naive.PNG)
 
 - **AdaBoost Classifier**
-![](images/AdaBoost Classifier.PNG)
+- 
+![](images/AdaBoost.PNG)
 
