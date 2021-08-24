@@ -37,9 +37,11 @@ Different techniques were deployed to train and evaluate models with unbalanced 
 ## **Analysis of Results and Summary**
 
 Looking at the performance of all six models above it’s hard to recommend any of them to be used for predicting credit risk. All of them had a 100% precision for low-risk, and lower than 8% of precision for high-risk. 
+
 For oversampling model, naïve, the precision score is 0.01, sensitivity(recall) is 0.69 and F1 score is 0.02. 
 For oversampling model, SMOTE , the precision score is 0.01, sensitivity is 0.68, and F1 score is 0.02, which make both of them very similar. 
 Almost same results appeared with undersampling model. The precision score is 0.01, sensitivity is 0.69, and F1 score is 0.01. While SMOTEENN model also had 0.01 for precision score, sensitivity is 0.71, and F1 score is 0.02.
+
 The random forest classifier had 0.03 for precision score, sensitivity is 0.70, and F1 score is 0.06.
 And AdaBoost Classifier has, 0.09 for precision score, sensitivity is 0.92, and F1 score is 0.16.
 Even though, AdaBoost Classifier has a better result, having the precision score and sensitivity than the rest, it still not reliable enough to be used for predicting credit risk. 
